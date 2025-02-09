@@ -11,9 +11,9 @@ body{
     font-family: "Inter", serif;
 }
 .container{
-    max-width: 1519px;
+    max-width: 1219px;
     margin: 0 auto;
-    padding: 0 200px;
+    padding: 0 100px;
 }
 .d-flex{
     display: flex;
@@ -248,7 +248,6 @@ body{
 }
 .cont2{
     position: relative;
-
 }
 .cont1{
     height: 800px;
@@ -305,7 +304,7 @@ body{
         font-weight: 600;
         line-height: 60px;
         text-align: left;
-        padding: 35px 300px;
+        padding: 35px 150px;
     }
 }
 .cont4{
@@ -577,4 +576,196 @@ body{
 .tort{
     position: relative;
     top: -20px;
+}
+.zzzb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+/* Media */
+@media (max-width: 1418px) {
+    .container{
+        padding: 0 10px;
+    }
+    .info-dic{
+        top: -490px;
+        left: 60px;
+    }
+    .batn{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* padding-left: 300px; */
+        margin-right: 0;
+        .btn2{
+            margin-right: 0; 
+        }
+    }
+    .bir{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        p{
+            font-size: 35px;
+            line-height: 35px;
+            text-align: center;
+        }
+        span{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .rams{
+        top: -260px;
+        left: 250px;
+    }
+    .rams > img{
+            width: 630px !important;
+            height: 525px !important;
+    }
+    .cont{
+        justify-content: center;
+        gap: 20px;
+        .menu{
+            display: none;
+        }
+    }
+    .cont1{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        height: 1000px;
+    }
+    .nimas{
+        padding-top: 150px;
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 0.4px;
+            text-align: center;
+            color: #265A6A;
+            padding-left: 0;
+        }
+        h1{
+            color: #265A6A;
+            font-size: 23px;
+            font-weight: 600;
+            line-height: 2px;
+            text-align: center;
+            padding: 35px 140px;
+        }
+    }
+    .nav3 , .nav4 , .nav6 , .nav5{
+        display: none;
+    }
+    .zzzb{
+        align-items: center;
+        flex-direction: column !important;
+    }
+    .niga{
+        gap: 5px;
+        padding: 35px;
+        left: 200px;
+        width: 800px !important;
+        height: 210px !important;
+        justify-content: center;
+        h2{
+            font-size: 35px;
+        }   
+
+        .gob{ 
+            gap: 0px;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 1231px){
+    .niga{
+        display: none;
+    }
+    .nav3 , .nav4 , .nav6 , .nav5{
+        display: none;
+    }
+    .butn .btn2{
+        margin-right: 0;
+    }
+}
+@media (max-width: 1231px){
+    .rams{
+        top: -210px;
+    }
+    .nimas{
+        h1{
+            line-height: 0;
+            font-size: 18px;
+
+        }
+    }
+}
+@media (max-width: 675px){
+    .oshal{
+        margin-top: 20px;
+        width: 119px;
+        height: 39px;
+        h2{
+            font-size: 15px;
+        }
+    }
+    .info-dic{
+        display: none;
+    }
+    .bular{
+        flex-direction: column;
+    }
+    .nimas{
+        h1{
+            padding: 29px 75px;
+            font-size: 11px;
+        }
+    }
+    .ikki .rams img{
+        width: 493px !important;
+        height: 395px !important;
+        left: -520px;
+    }
+}
+@media (max-width: 592px){
+    .info-dic{
+        display: none;
+    }
+    .bular{
+        flex-direction: column;
+    }
+    .nimas{
+        h1{
+            padding: 29px 75px;
+            font-size: 11px;
+        }
+    }
+    .ikki .rams img{
+        width: 493px !important;
+        height: 395px !important;
+        left: -520px;
+        top: -400px;
+    }
+    .bir {
+        span{
+            font-size: 11px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+}
+@media (max-width: 395px){
+    .ikki .rams img{
+        width: 389px !important;
+        height: 304px !important;
+        align-items: center;
+    }
 }
